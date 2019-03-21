@@ -1,31 +1,118 @@
+
+
+@import url("https://fonts.googleapis.com/css?family=Varela+Round");
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+
+}
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+  letter-spacing: 1.1px;
+}
+
+.color{
+  background: #112;
+  height: 3em;
+}
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+ 
+  margin-left:55%; 
+list-style: none;
+
+  
+}
+
+
+.menu li {
+
+  width: 20%;
+  
+  -webkit-transition: background-position-x 0.9s linear;
+  transition: background-position-x 0.9s linear;
+  text-align: center;
+}
+.menu li a {
+  font-size: 1.5em;
+  color:  #E9967A;
+  text-decoration: none;
+  -webkit-transition: all 0.45s;
+  transition: all 0.45s;
+}
+
+.menu li:hover a {
+  color: #FFE4E1;
+}
+.menu li:not(:last-child) {
+  margin-right: 30px;
+}
+
+
 body
-{background:url(img/tunnel-4053032_960_720.jpg);
-width: 100%;
-height: 100%;
-  background: url(img/tunnel-4053032_960_720.jpg) repeat-x;
+{
+  
   font-family: "Сomic Sans MS","Varela Round", sans-serif;
 }
+.mainPicture {
+  width: 100%;
+  height: 40em;
+
+  background:url(img/photo-1552602126-0cbc24c1301c.jpg) repeat-x ;
+  padding-top: 1%;
+
+  
+}
 .registration {
+  
   color: #FFD5C6;
   text-shadow: #B22222 1px 1px 0;
   text-align: center;
   padding-top: 7%;
   padding-bottom: 5%;
    font-family: COURIER ;
-   font-size: 340%;
+   
+}
+h1{
+  font-size: 2em;
 }
 .registr{
-	color: #FFD5C6;
+  color: #FFD5C6;
 }
 .main {
-	margin: 0 auto;
-	background-color:rgba(194,39,54,0.5);
-	width: 50%;
+  margin: 0 auto;
+  background-color:rgba(194,39,54,0.5);
+  width: 40%;
 
 }
 .form-control {
-	width: 50%;
+  width: 50%;
 }
 .btn, .btn-success {
-	margin: 0% 50% 0 25%;}
+  margin: 0% 50% 0 25%;}
   
+.simpleLine {
+  margin-top: 7%;
+  width: 100%;
+  height: 0.07em;
+  background: #112;
+ }
+ .row, .down{
+  margin-top: 2%;
+
+ }
