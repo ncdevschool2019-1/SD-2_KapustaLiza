@@ -1,0 +1,70 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<div class="mainPicture">
+  <div class="main">
+    <h2 class="registration">REGISTRATION</h2>
+      <div class="form-inline">
+        <div class="form-group">
+          <label  class="col-sm-2 control-label">Login</label>
+          <div class="col-md-8">
+            <input type="text" class="form-control" [(ngModel)]="login" placeholder = "FirstName" />
+          </div>
+        </div></div>
+      <div class="form-inline">
+        <div class="form-group">
+          <label  class="col-sm-2 control-label">Email</label>
+          <div class="col-md-8">
+            <input type="email" class="form-control" [(ngModel)]="email" placeholder = "Email" />
+          </div>
+        </div></div>
+      <div class="form-inline">
+        <div class="form-group">
+          <label  class="col-sm-2 control-label">FirstName</label>
+          <div class="col-md-8">
+            <input type="text" class="form-control" [(ngModel)]="firstName" placeholder = "FirstName" />
+          </div>
+        </div></div>
+      <div class="form-inline">
+        <label  class="col-sm-2 control-label">LastName</label>
+        <div class="form-group">
+          <div class="col-md-6">
+            <input type="text" class="form-control" [(ngModel)]="lastName" placeholder="LastName" />
+          </div>
+        </div></div>
+      <div class="form-inline">
+        <div class="form-group">
+          <label  class="col-sm-2 control-label">Password</label>
+          <div class="col-md-8">
+            <input type="password" class="form-control" [(ngModel)]="password" placeholder = "Password" />
+          </div>
+        </div></div>
+        <div class="form-group">
+          <div class="col-md-offset-2 col-md-8">
+            <button class="btn btn-default" (click)="addItem(login,email,firstName,lastName,password)">Добавить</button>
+          </div>
+        </div>
+      </div>
+      <table class="table table-striped">
+        <thead>
+        <tr>
+          <th>Login</th>
+          <th>Email</th>
+          <th>FirstName</th>
+          <th>LastName</th>
+          <th>Password</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr *ngFor="let item of items">
+          <td>{{item.login}}</td>
+          <td>{{item.email}}</td>
+          <td>{{item.firstName}}</td>
+          <td>{{item.lastName}}</td>
+          <td>{{item.password}}</td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+

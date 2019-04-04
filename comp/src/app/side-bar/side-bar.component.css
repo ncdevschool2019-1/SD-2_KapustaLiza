@@ -1,0 +1,32 @@
+.sidebar {
+  position: absolute;
+  right: 5%;
+  top: 0%;
+  background: #fff;
+  float: left;
+  width: 15%;
+  padding: 5px 15px;
+  margin: 10px 10px 20px 5px;
+  text-align: center;
+  color: red;
+  text-decoration: none;
+  list-style: none;
+  z-index: 999;
+}
+.sidebar a {
+  font-size: 1em;
+  text-decoration: none;
+  list-style: none;
+  color: #000;
+}
+
+.sidebar p {
+  padding-bottom: 15px;
+}
+
+.sidebar a:hover {
+  background: #fff;
+  color: #454547;
+  box-shadow: 1px 5px 10px -5px white;
+  transition: all 0.3s ease;
+}

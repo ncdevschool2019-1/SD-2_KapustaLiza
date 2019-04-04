@@ -1,0 +1,49 @@
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+  letter-spacing: 1.1px;
+}
+
+.color {
+  background: #112;
+  height: 3em;
+}
+
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-left: 55%;
+  list-style: none;
+}
+
+.menu li {
+  width: 20%;
+  -webkit-transition: background-position-x 0.9s linear;
+  transition: background-position-x 0.9s linear;
+  text-align: center;
+}
+
+.menu li a {
+  font-size: 1.5em;
+  color: #E9967A;
+  text-decoration: none;
+  -webkit-transition: all 0.45s;
+  transition: all 0.45s;
+}
+
+.menu li:hover a {
+  color: #FFE4E1;
+}
+
+.menu li:not(:last-child) {
+  margin-right: 30px;
+}
