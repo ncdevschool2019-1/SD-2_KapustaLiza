@@ -9,11 +9,13 @@ import { AppComponent } from './app.component';
 import {HttpClientModule} from '@angular/common/http';
 import { BillingAccountsComponent } from './billing-accounts/billing-accounts.component';
 import {Ng4LoadingSpinnerModule} from "ng4-loading-spinner";
+import { AccountComponent } from './account/account.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    BillingAccountsComponent
+    BillingAccountsComponent,
+    AccountComponent
   ],
   imports: [
     BrowserModule,

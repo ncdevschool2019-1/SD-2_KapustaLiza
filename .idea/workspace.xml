@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c5d33466-8d34-428d-ab74-acc1baaffbd2" name="Default Changelist" comment="" />
+    <list default="true" id="c5d33466-8d34-428d-ab74-acc1baaffbd2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/model/catalog.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/model/purse.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/model/subscriptions.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7dcdb9a5-af64-4476-95db-e21d4570d5ae.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7dcdb9a5-af64-4476-95db-e21d4570d5ae.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fapi/fapi.iml" beforeDir="false" afterPath="$PROJECT_DIR$/fapi/fapi.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/front/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/model/billing-account.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/model/billing-account.ts" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/be/target/" />
     <ignored path="$PROJECT_DIR$/fapi/target/" />
@@ -22,87 +32,99 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="new_schema: schema" type="76f4a085:MysqlImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="collations" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-    </expand>
+    <expand />
     <select />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/package.json">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/frontend/src/app/account/account.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/frontend/tsconfig.json">
+        <entry file="file://$PROJECT_DIR$/frontend/src/app/account/account.component.css">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/src/app/app.component.ts">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/src/app/app.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="34">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/package-lock.json">
+        <entry file="file://$PROJECT_DIR$/frontend/src/app/billing-accounts/billing-accounts.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19618">
-              <caret line="1154" selection-start-line="1154" selection-end-line="1154" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fapi/src/main/java/com/netcracker/edu/fapi/FapiApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/be/src/main/java/com/netcracker/edu/backend/BackendApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+            <state>
               <folding>
-                <element signature="e#256#257#0" expanded="true" />
-                <element signature="e#316#317#0" expanded="true" />
+                <element signature="e#0#61#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/proxy.conf.json">
+        <entry file="file://$PROJECT_DIR$/frontend/src/app/billing-accounts/billing-accounts.component.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/src/app/billing-accounts/billing-accounts.component.spec.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+            <state>
+              <folding>
+                <element signature="e#0#73#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/src/app/account/account.component.spec.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#73#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/src/app/account/account.component.ts">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/src/app/model/subscriptions.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -120,6 +142,20 @@
         <option value="$PROJECT_DIR$/be/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/fapi/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/frontend/proxy.conf.json" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/7dcdb9a5-af64-4476-95db-e21d4570d5ae/console_7.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/7dcdb9a5-af64-4476-95db-e21d4570d5ae/console_5.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/7dcdb9a5-af64-4476-95db-e21d4570d5ae/console_10.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/7dcdb9a5-af64-4476-95db-e21d4570d5ae/console_9.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/7dcdb9a5-af64-4476-95db-e21d4570d5ae/console_6.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/7dcdb9a5-af64-4476-95db-e21d4570d5ae/console_11.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/7dcdb9a5-af64-4476-95db-e21d4570d5ae/console_8.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/7dcdb9a5-af64-4476-95db-e21d4570d5ae/console_12.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/7dcdb9a5-af64-4476-95db-e21d4570d5ae/console_13.sql" />
+        <option value="$PROJECT_DIR$/frontend/src/app/model/purse.ts" />
+        <option value="$PROJECT_DIR$/frontend/src/app/model/subscriptions.ts" />
+        <option value="$PROJECT_DIR$/frontend/src/app/model/catalog.ts" />
+        <option value="$PROJECT_DIR$/frontend/src/app/model/billing-account.ts" />
+        <option value="$PROJECT_DIR$/frontend/src/app/account/account.component.html" />
       </list>
     </option>
   </component>
@@ -130,10 +166,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="10" />
-    <option name="y" value="20" />
-    <option name="width" value="1346" />
-    <option name="height" value="688" />
+    <option name="x" value="562" />
+    <option name="width" value="811" />
+    <option name="height" value="735" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -141,124 +176,65 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="ethalon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ethalon" type="462c0819:PsiDirectoryNode" />
+              <item name="SD-2_KapustaLiza" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SD-2_KapustaLiza" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ethalon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ethalon" type="462c0819:PsiDirectoryNode" />
-              <item name="be" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ethalon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ethalon" type="462c0819:PsiDirectoryNode" />
-              <item name="be" type="462c0819:PsiDirectoryNode" />
-              <item name="sql" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ethalon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ethalon" type="462c0819:PsiDirectoryNode" />
-              <item name="be" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ethalon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ethalon" type="462c0819:PsiDirectoryNode" />
-              <item name="be" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ethalon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ethalon" type="462c0819:PsiDirectoryNode" />
-              <item name="be" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ethalon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ethalon" type="462c0819:PsiDirectoryNode" />
-              <item name="be" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ethalon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ethalon" type="462c0819:PsiDirectoryNode" />
-              <item name="be" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ethalon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ethalon" type="462c0819:PsiDirectoryNode" />
-              <item name="fapi" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ethalon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ethalon" type="462c0819:PsiDirectoryNode" />
-              <item name="fapi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ethalon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ethalon" type="462c0819:PsiDirectoryNode" />
-              <item name="fapi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ethalon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ethalon" type="462c0819:PsiDirectoryNode" />
-              <item name="fapi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ethalon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ethalon" type="462c0819:PsiDirectoryNode" />
-              <item name="fapi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="fapi" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ethalon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ethalon" type="462c0819:PsiDirectoryNode" />
-              <item name="fapi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ethalon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ethalon" type="462c0819:PsiDirectoryNode" />
+              <item name="SD-2_KapustaLiza" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SD-2_KapustaLiza" type="462c0819:PsiDirectoryNode" />
               <item name="frontend" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ethalon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ethalon" type="462c0819:PsiDirectoryNode" />
+              <item name="SD-2_KapustaLiza" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SD-2_KapustaLiza" type="462c0819:PsiDirectoryNode" />
               <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="e2e" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ethalon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ethalon" type="462c0819:PsiDirectoryNode" />
+              <item name="SD-2_KapustaLiza" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SD-2_KapustaLiza" type="462c0819:PsiDirectoryNode" />
               <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="e2e" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SD-2_KapustaLiza" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SD-2_KapustaLiza" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="account" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SD-2_KapustaLiza" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SD-2_KapustaLiza" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="billing-accounts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SD-2_KapustaLiza" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SD-2_KapustaLiza" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SD-2_KapustaLiza" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SD-2_KapustaLiza" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="billing" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -274,14 +250,18 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552588416914" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553781758560" />
+    <property name="database.console.LAST_STATE" value="true" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="D:/new" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
-    <property name="ts.external.directory.path" value="D:\Mine\ethalon\frontend\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="D:\Mine\ethalon\SD-2_KapustaLiza\frontend\node_modules\typescript\lib" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -335,6 +315,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="npm.start" />
+        <item itemvalue="Spring Boot.FapiApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -354,16 +335,34 @@
       <workItem from="1552576843767" duration="3116000" />
       <workItem from="1552915100526" duration="592000" />
       <workItem from="1552917253296" duration="18000" />
+      <workItem from="1553010791620" duration="588000" />
+      <workItem from="1553260986107" duration="6774000" />
+      <workItem from="1553430830789" duration="4083000" />
+      <workItem from="1553455037857" duration="7569000" />
+      <workItem from="1553499749745" duration="793000" />
+      <workItem from="1553511364243" duration="3939000" />
+      <workItem from="1553614555191" duration="3917000" />
+      <workItem from="1553674872719" duration="14249000" />
+      <workItem from="1553754706132" duration="3853000" />
+      <workItem from="1553768571914" duration="2460000" />
+      <workItem from="1553778002460" duration="2489000" />
+      <workItem from="1553786209727" duration="1756000" />
+      <workItem from="1553837031608" duration="143000" />
+      <workItem from="1553844722495" duration="931000" />
+      <workItem from="1554057245544" duration="976000" />
+      <workItem from="1554119552590" duration="978000" />
+      <workItem from="1554148673064" duration="660000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11766000" />
+    <option name="totallyTimeSpent" value="67714000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2647504" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21255673" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -373,27 +372,28 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.30769232" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.12765957" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="TypeScript" order="8" />
+      <window_info anchor="bottom" id="TypeScript" order="8" weight="0.3289689" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.3289689" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="15" visible="true" weight="0.11456628" />
+      <window_info anchor="bottom" id="Version Control" order="15" weight="0.11627907" />
+      <window_info anchor="bottom" id="Database Console" order="16" visible="true" weight="0.33222592" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Maven" order="3" weight="0.32980332" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" visible="true" weight="0.14750378" />
+      <window_info anchor="right" id="Database" order="6" visible="true" weight="0.18154311" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" />
@@ -403,73 +403,17 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/7dcdb9a5-af64-4476-95db-e21d4570d5ae/console.sql" />
-    <entry file="file://$PROJECT_DIR$/be/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="51" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fapi/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/e2e/protractor.conf.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/e2e/src/app.po.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/e2e/src/app.e2e-spec.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fapi/fapi.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fapi/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="41" lean-forward="true" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/e2e/tsconfig.e2e.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/be/sql/billing-accounts.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/package.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19618">
-          <caret line="1154" selection-start-line="1154" selection-end-line="1154" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fapi/src/main/java/com/netcracker/edu/fapi/FapiApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/be/src/main/java/com/netcracker/edu/backend/BackendApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
-          <folding>
-            <element signature="e#256#257#0" expanded="true" />
-            <element signature="e#316#317#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="1154" selection-start-line="1154" selection-end-line="1154" />
         </state>
       </provider>
     </entry>
@@ -480,6 +424,174 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/front/main.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/7dcdb9a5-af64-4476-95db-e21d4570d5ae/console_7.sql" />
+    <entry file="das://7dcdb9a5-af64-4476-95db-e21d4570d5ae/schema/backend/table/customer" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/7dcdb9a5-af64-4476-95db-e21d4570d5ae/console_5.sql" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/7dcdb9a5-af64-4476-95db-e21d4570d5ae/console_9.sql" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/7dcdb9a5-af64-4476-95db-e21d4570d5ae/console_10.sql" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/7dcdb9a5-af64-4476-95db-e21d4570d5ae/console_11.sql" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/7dcdb9a5-af64-4476-95db-e21d4570d5ae/console_6.sql" />
+    <entry file="file://$PROJECT_DIR$/fapi/fapi.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/7dcdb9a5-af64-4476-95db-e21d4570d5ae/console_8.sql" />
+    <entry file="das://7dcdb9a5-af64-4476-95db-e21d4570d5ae/schema/backend/table/user" />
+    <entry file="uml://DATABASE/7dcdb9a5-af64-4476-95db-e21d4570d5ae.TABLE:backend.catalog">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID />
+          <OriginalElement>7dcdb9a5-af64-4476-95db-e21d4570d5ae.TABLE:backend.catalog</OriginalElement>
+          <nodes>
+            <node x="0.0" y="0.0">7dcdb9a5-af64-4476-95db-e21d4570d5ae.TABLE:backend.catalog</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="90.0" y="71.0" />
+          <SelectedNodes>
+            <node>7dcdb9a5-af64-4476-95db-e21d4570d5ae.TABLE:backend.catalog</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/7dcdb9a5-af64-4476-95db-e21d4570d5ae.SCHEMA:backend">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID />
+          <OriginalElement>7dcdb9a5-af64-4476-95db-e21d4570d5ae.SCHEMA:backend</OriginalElement>
+          <nodes>
+            <node x="133.75" y="470.0">7dcdb9a5-af64-4476-95db-e21d4570d5ae.TABLE:backend.subscriptions</node>
+            <node x="214.0" y="235.0">7dcdb9a5-af64-4476-95db-e21d4570d5ae.TABLE:backend.catalog</node>
+            <node x="0.0" y="191.0">7dcdb9a5-af64-4476-95db-e21d4570d5ae.TABLE:backend.user</node>
+            <node x="2.5" y="0.0">7dcdb9a5-af64-4476-95db-e21d4570d5ae.TABLE:backend.purse</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="7dcdb9a5-af64-4476-95db-e21d4570d5ae.TABLE:backend.user" target="7dcdb9a5-af64-4476-95db-e21d4570d5ae.TABLE:backend.purse">
+              <point x="0.0" y="-114.5" />
+              <point x="0.0" y="70.5" />
+            </edge>
+            <edge source="7dcdb9a5-af64-4476-95db-e21d4570d5ae.TABLE:backend.subscriptions" target="7dcdb9a5-af64-4476-95db-e21d4570d5ae.TABLE:backend.user">
+              <point x="-33.25" y="-37.0" />
+              <point x="167.0" y="445.0" />
+              <point x="97.0" y="445.0" />
+              <point x="0.0" y="114.5" />
+            </edge>
+            <edge source="7dcdb9a5-af64-4476-95db-e21d4570d5ae.TABLE:backend.subscriptions" target="7dcdb9a5-af64-4476-95db-e21d4570d5ae.TABLE:backend.catalog">
+              <point x="33.25" y="-37.0" />
+              <point x="233.5" y="445.0" />
+              <point x="303.5" y="445.0" />
+              <point x="0.0" y="70.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.851063829787234" x="197.0" y="272.0" />
+          <SelectedNodes>
+            <node>7dcdb9a5-af64-4476-95db-e21d4570d5ae.TABLE:backend.subscriptions</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/7dcdb9a5-af64-4476-95db-e21d4570d5ae/console_12.sql" />
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/service/billing/billing-account.service.spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/tslint.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/environments/environment.prod.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/environments/environment.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/karma.conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/polyfills.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/tsconfig.app.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/be/src/test/java/com/netcracker/edu/backend/BackendApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/be/sql/billing-accounts.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/tsconfig.spec.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/main.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://7dcdb9a5-af64-4476-95db-e21d4570d5ae/schema/backend/table/purse" />
+    <entry file="das://7dcdb9a5-af64-4476-95db-e21d4570d5ae/schema/backend/table/subscriptions" />
     <entry file="file://$PROJECT_DIR$/frontend/tsconfig.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -487,8 +599,166 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/front/form.css">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/7dcdb9a5-af64-4476-95db-e21d4570d5ae/console_13.sql" />
+    <entry file="das://7dcdb9a5-af64-4476-95db-e21d4570d5ae/schema/backend/table/catalog" />
+    <entry file="file://$PROJECT_DIR$/front/profile.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/model/billing-account.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/model/catalog.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/model/purse.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/model/subscriptions.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/app.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/billing-accounts/billing-accounts.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/billing-accounts/billing-accounts.component.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/billing-accounts/billing-accounts.component.spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/account/account.component.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/account/account.component.spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/account/account.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/account/account.component.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>fapi</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

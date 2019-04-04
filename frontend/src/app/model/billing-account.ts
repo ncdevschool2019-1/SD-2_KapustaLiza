@@ -1,15 +1,15 @@
-export class BillingAccount {
-  id: string;
-  address: string;
-  username: string;
-  email: string;
+import { Component } from '@angular/core';
 
-  static cloneBase(billingAccout: BillingAccount): BillingAccount {
-    let clonedBillingAccount: BillingAccount = new BillingAccount();
-    clonedBillingAccount.id = billingAccout.id;
-    clonedBillingAccount.username = billingAccout.username;
-    clonedBillingAccount.email = billingAccout.email;
-    clonedBillingAccount.address = billingAccout.address;
-    return clonedBillingAccount;
-  }
-}
+
+
+
+
+export class BillingAccount {
+  id: number;
+  firstName: string;
+  lastName:string;
+  email: string;
+  login:string;
+  age:number;
+  phoneNumber:number;
+  password:string;}
